@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginLeft="26dp"
+    android:layout_marginRight="26dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/calculator" />
+
+    <EditText
+        android:id="@+id/firNUm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hint2"
+        android:inputType="number"
+        android:textColorHint="#54BA9E"
+        android:textSize="20sp"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <EditText
+        android:id="@+id/secNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="@string/hint1"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textColorHint="#54BA9F"
+        android:textColorLink="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:outlineProvider="bounds"
+        android:outlineSpotShadowColor="#040404"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="120dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/plus"
+        android:textColor="#FDF6FE"
+        android:textColorLink="#55BBA2"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/subButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="120dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/subtract"
+        android:textColor="#FDF6FE"
+        android:textColorLink="#55BBA2"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/mulButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="120dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/multiply"
+        android:textColor="#FDF6FE"
+        android:textColorLink="#55BBA2"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/divButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="120dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/division"
+        android:textColor="#FDF6FE"
+        android:textColorLink="#55BBA2"
+        android:textSize="24sp" />
+
+</LinearLayout>

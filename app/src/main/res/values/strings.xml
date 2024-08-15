@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EzCalculate</string>
+    <string name="plus">+</string>
+    <string name="subtract">-</string>
+    <string name="multiply">x</string>
+    <string name="division">/</string>
+    <string name="hint1">(ENTER HERE)</string>
+    <string name="hint2">(ENTER HERE)</string>
+    <string name="todo">TODO</string>
+</resources>
